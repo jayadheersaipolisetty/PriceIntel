@@ -1,3 +1,5 @@
+'''ALL THE OTHER INFORMATION OF PRODUCT INTELLIGENCE DASHBOARD WHICH WILL BE SHOWN ON WEBSITE'''
+
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
