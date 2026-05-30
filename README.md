@@ -39,21 +39,40 @@ Amazon & Flipkart Scrapers
             ↓
 MySQL Database
             ↓
+SQL Views Layer
+            ↓
 Analytics Engine
             ↓
-Product Intelligence Dashboard
+ ┌──────────────────────────┐
+ │      Excel Layer         │
+ │ Product Dashboard        │
+ │ Category Dashboard       │
+ └──────────────────────────┘
             ↓
-Category Intelligence Dashboard
+ ┌──────────────────────────┐
+ │    Streamlit Web App     │
+ │ Home Page               │
+ │ Product Intelligence    │
+ │ Category Intelligence   │
+ └──────────────────────────┘
+            ↓
+KPIs • Trends • Insights
 ```
 
 ## Tech Stack
 
-- Python
-- Selenium
-- MySQL
-- Google Sheets
-- Excel
-- ThreadPoolExecutor (Experimental Parallel Pipeline)
+* Python
+* Selenium
+* MySQL
+* SQL Views
+* Pandas
+* Plotly
+* Streamlit
+* Google Sheets
+* Excel
+* ThreadPoolExecutor (Experimental Parallel Pipeline)
+* GitHub
+
 
 ---
 
@@ -125,6 +144,7 @@ PriceIntel transforms raw ecommerce marketplace data into actionable intelligenc
 - Whole-marketplace crawling and intelligence generation
 - Location-aware inventory intelligence
 - Seller intelligence and competitive benchmarking
+- fully functioning app and website available to everyone
 
 ---
 
@@ -133,15 +153,98 @@ PriceIntel transforms raw ecommerce marketplace data into actionable intelligenc
 ```text
 PriceIntel
 │
-├── dashboard
-├── docs
 ├── scraper
 │   ├── amazon_scraper.py
 │   ├── flipkart_scraper.py
 │   ├── final_pipeline.py
 │   └── parallel_pipeline_experimental.py
+│   ├── website_home.py
+│   ├── website_databases.py
+│   ├── website_product_dashboard.py
+│   ├── website_product_intelligence_route.py
+│   ├── website_full_category_intelligence_dashboard.py
+│   ├── website_insights_product_intelligence_dashboard.py
+│   └── website_insights_category_intelligence_dashboard.py
+│
+├── screenshots
+│   ├── architecture.png
+│   ├── home.png
+│   ├── product_intelligence_dashboard.png
+│   ├── category_intelligence_dashboard.png
+│   ├── product_intelligence_website.png
+│   └── category_intelligence_website.png
+│
+│
 └── README.md
 ```
+
+## Streamlit Web Application
+
+In addition to the Excel-based analytics layer, PriceIntel includes a fully interactive Streamlit web application that provides a browser-based interface for marketplace intelligence and decision support.
+
+### Home Page
+
+The Home Page serves as the central navigation hub, providing access to the Product Intelligence and Category Intelligence modules.
+
+<img width="1920" height="1079" alt="home page" src="<img width="1920" height="1078" alt="home png" src="https://github.com/user-attachments/assets/45408106-853e-4496-be49-39b68e6a3ac9" />
+" />
+
+---
+
+### Product Intelligence Web Dashboard
+
+The Product Intelligence web dashboard enables detailed product-level analysis through interactive visualizations and filters.
+
+Features include:
+
+* Product-level KPI tracking
+* Initial Price vs Current Price comparison
+* Lowest and Highest Price monitoring
+* Product trend analysis
+* Category-based filtering
+* Dynamic threshold-based insight generation
+* Interactive visualizations
+* Historical intelligence views (Today, Last 7 Days, Last 30 Days, Overall)
+
+<img width="1920" height="1079" alt="product intelligence website" src="<img width="1920" height="1078" alt="product intelligence website" src="https://github.com/user-attachments/assets/5c734e6a-60be-4dca-a142-d41c62e1d323" />
+" />
+
+---
+
+### Category Intelligence Web Dashboard
+
+The Category Intelligence web dashboard provides category-level competitive intelligence and marketplace monitoring.
+
+Features include:
+
+* Category dominance analysis
+* Stock availability intelligence
+* Marketplace competition tracking
+* Automated insight generation
+* Historical category performance analysis
+* Category-based filtering
+* Dynamic KPI generation
+* Interactive drill-down capabilities
+
+<img width="1920" height="1079" alt="category intelligence website" src="<img width="1920" height="1078" alt="category intelligence website" src="https://github.com/user-attachments/assets/181f4fe9-a31a-48eb-91d4-1f5b779f1b21" />
+" />
+
+---
+
+### Web Analytics Layer
+
+The Streamlit application consumes data directly from the analytics layer and SQL views, enabling dynamic intelligence generation through:
+
+* Product Intelligence Engine
+* Category Intelligence Engine
+* KPI Engine
+* Trend Analysis Engine
+* Stock Transition Intelligence
+* Competitive Marketplace Analytics
+* Automated Insight Generation
+
+This creates a complete analytics workflow from data collection to business intelligence delivery through both Excel dashboards and a web-based analytics platform.
+
 
 ## Security
 
