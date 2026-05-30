@@ -186,7 +186,7 @@ In addition to the Excel-based analytics layer, PriceIntel includes a fully inte
 
 The Home Page serves as the central navigation hub, providing access to the Product Intelligence and Category Intelligence modules.
 
-<img width="1920" height="1079" alt="home page" src="<img width="1920" height="1078" alt="home png" src="https://github.com/user-attachments/assets/45408106-853e-4496-be49-39b68e6a3ac9" />
+<img width="1920" height="1078" alt="home png" src="https://github.com/user-attachments/assets/45408106-853e-4496-be49-39b68e6a3ac9" />
 " />
 
 ---
@@ -206,7 +206,7 @@ Features include:
 * Interactive visualizations
 * Historical intelligence views (Today, Last 7 Days, Last 30 Days, Overall)
 
-<img width="1920" height="1079" alt="product intelligence website" src="<img width="1920" height="1078" alt="product intelligence website" src="https://github.com/user-attachments/assets/5c734e6a-60be-4dca-a142-d41c62e1d323" />
+<img width="1920" height="1078" alt="product intelligence website" src="https://github.com/user-attachments/assets/5c734e6a-60be-4dca-a142-d41c62e1d323" />
 " />
 
 ---
