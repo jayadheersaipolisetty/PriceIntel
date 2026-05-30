@@ -1,3 +1,5 @@
+''' THE ROUTE FOR THE PRODUCT DASHOBOARD TO SHOW ON THE WEBSITE'''
+
 import streamlit as st
 from database import load_data
 from product_dashboard import render_product_dashboard
