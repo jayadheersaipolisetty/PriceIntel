@@ -1,3 +1,5 @@
+''' BACKGROUND WORK FOR THE INISGHTS TO BE SHOWN ON THE WEBSITE''' 
+
 import pandas as pd
 
 def generate_insights(
