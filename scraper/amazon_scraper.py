@@ -1,3 +1,5 @@
+##SCRAPER FOR AMAZON##
+
 """
 PriceIntel - Amazon Scraper
 
