@@ -1,3 +1,5 @@
+'''BACKGORUND WORK FOR INSIGHTS TO BE SHOWN ON THE WEBSITE'''
+
 import streamlit as st
 import pandas as pd
 
