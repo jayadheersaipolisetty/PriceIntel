@@ -1,3 +1,5 @@
+"""THE DATABASES WHICH ARE REQUIRED FOR THE WEBSITE TO RUN"""
+
 import pandas as pd
 import mysql.connector
 import os
