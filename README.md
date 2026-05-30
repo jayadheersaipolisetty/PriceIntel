@@ -226,7 +226,7 @@ Features include:
 * Dynamic KPI generation
 * Interactive drill-down capabilities
 
-<img width="1920" height="1079" alt="category intelligence website" src="<img width="1920" height="1078" alt="category intelligence website" src="https://github.com/user-attachments/assets/181f4fe9-a31a-48eb-91d4-1f5b779f1b21" />
+<img width="1920" height="1078" alt="category intelligence website" src="https://github.com/user-attachments/assets/181f4fe9-a31a-48eb-91d4-1f5b779f1b21" />
 " />
 
 ---
