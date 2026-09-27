@@ -254,6 +254,7 @@ Sensitive credentials, database passwords, and private configuration values have
 
 ## Author
 
-Jayadheer Sai Polisetty
+Jayadheer Sai Polisetty, Nandini Gavidi
 
-BBA Business Analytics | Product Analytics & Product Management Enthusiast
+BBA Business Analytics
+
